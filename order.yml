@@ -7,7 +7,7 @@ spring:
     password: 123456
     username: root
   jpa:
-    show-sql: true
+    show-sql: false
 eureka:
   client:
     service-url:
@@ -16,4 +16,5 @@ eureka:
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
-分支
+env:
+  test
