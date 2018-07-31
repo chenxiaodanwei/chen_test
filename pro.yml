@@ -1,3 +1,16 @@
-shenmeyemeiyou
+spring:
+  application:
+    name: product
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.0.102:3306/chen
+    password: 123456
+    username: root
+  jpa:
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
 env:
   test
