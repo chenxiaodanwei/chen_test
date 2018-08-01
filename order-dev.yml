@@ -1,6 +1,6 @@
 spring:
   application:
-    name: product
+    name: order
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.0.102:3306/chen
@@ -9,4 +9,4 @@ spring:
   jpa:
     show-sql: true
 env:
-  dev
+  dev1
