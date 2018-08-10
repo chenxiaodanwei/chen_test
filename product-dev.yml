@@ -9,6 +9,9 @@ spring:
   rabbitmq:
     addresses: 192.168.0.101
     port: 5672
+  redis:
+    host: 192.168.0.101
+    port: 6379
     
 evi:
   chen
