@@ -6,3 +6,6 @@ spring:
     username: root
   jpa:
     show-sql: true
+  rabbitmq:
+    addresses: 192.168.0.101
+    port: 5672
